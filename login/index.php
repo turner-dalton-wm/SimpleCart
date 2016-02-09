@@ -41,9 +41,15 @@ if(isset($_POST['login'])) {
     <title>Login</title>
 </head>
 <body>
+<div>
+    <a href="/SimpleCart">Home</a>
+    <a href="/SimpleCart/login">Login</a>
+    <a href="/SimpleCart/register">Register</a>
+    <a href="/SimpleCart/cart">Cart</a>
+</div><br><br>
     <form method="post" action="">
-        <input type="text" name="username"/>
-        <input type="password" name="password"/>
+        <input type="text" name="username" placeholder="Username"/>
+        <input type="password" name="password" placeholder="Password"/>
         <input type="submit" name="login" value="Login"/>
     </form>
 </body>
