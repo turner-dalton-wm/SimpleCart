@@ -33,7 +33,7 @@ if(isset($_POST['register'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login</title>
+    <title>Register</title>
 </head>
 <body>
 <form method="post" action="">

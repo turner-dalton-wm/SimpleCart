@@ -42,7 +42,7 @@ if(isset($_POST['delete'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login</title>
+    <title>Cart</title>
 </head>
 <body>
 
