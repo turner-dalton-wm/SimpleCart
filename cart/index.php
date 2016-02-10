@@ -75,6 +75,10 @@ if(isset($_POST['delete'])) {
     <?php
         getProducts($dbh);
     ?>
+    <br>
+    <form method="post" action="/SimpleCart/checkout/">
+        <input type="submit" name="checkout" value="CHECKOUT"/>
+    </form>
 </div>
 </body>
 </html>

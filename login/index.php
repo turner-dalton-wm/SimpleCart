@@ -50,7 +50,7 @@ if(isset($_POST['login'])) {
     <form method="post" action="">
         <input type="text" name="username" placeholder="Username"/>
         <input type="password" name="password" placeholder="Password"/>
-        <input type="submit" name="login" value="Login"/>
+        <input type="submit" name="login" value="LOGIN"/>
     </form>
 </body>
 </html>

@@ -52,7 +52,7 @@ function generateToken() {
     <input type="text" name="username" placeholder="Username"/>
     <input type="password" name="password" placeholder="Password"/>
     <input type="text" name="email" placeholder="Email"/>
-    <input type="submit" name="register" value="Register"/>
+    <input type="submit" name="register" value="REGISTER"/>
 </form>
 </body>
 </html>
