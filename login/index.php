@@ -15,6 +15,7 @@ function login($conn) {
             $sql = 'UPDATE users SET token = ? WHERE username = ?';
             $stmt1 = $conn->prepare($sql);
             if ($stmt1->execute(array($token, $username))) {
+                setcookie('token', $token, 0, "/");
                 echo 'Login Successful';
             }
         }
